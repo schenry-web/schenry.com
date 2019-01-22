@@ -20,7 +20,7 @@
         position: absolute;
         top: 40px;
         left: 50%;
-        max-width: 118px;
+        width: 118px;
         transform: translate(-50%,0);
         z-index: 1;
         svg { width: 100%; height: auto; }
@@ -101,7 +101,7 @@
     .hero {
         .logo {
             top: 30px;
-            max-width: 92px;
+            width: 92px;
         }
 
         h1 {
