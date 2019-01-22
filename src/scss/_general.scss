@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto",sans-serif;
+    color: $font-color;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+a {
+    text-decoration: none;
+    color: $font-color;
+    transition: color 200ms ease-in-out;
+
+    &:hover, &:focus, &:active {
+        color: $hover-color;
+    }
+}
+h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.outdated {
+    text-align: center;
+    position: relative;
+    z-index: 9999;
+}
+
+.inverted {
+    color: #fff;
+    a { color: #fff; }
+}
